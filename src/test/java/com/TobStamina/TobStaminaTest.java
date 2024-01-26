@@ -1,13 +1,13 @@
-package com.example;
+package com.TobStamina;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class TobStaminaTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(TobStaminaPlugin.class);
 		RuneLite.main(args);
 	}
 }
